@@ -238,3 +238,62 @@ button {
 .uchunchi ol li p {
     color: #14213d;
 }
+
+
+.tortinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 20px;
+    background-color: #ffff;
+}
+
+
+.tortinchi div {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.tortinchi div i {
+    font-size: 30px;
+    color: #2a9d8f;
+}
+
+.tortinchi div h3 {
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tortinchi ol {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style-type: none;
+    gap: 30px;
+}
+
+.tortinchi ol li {
+    width: 300px;
+    padding: 30px;
+    background-color: #ffff;
+    border-radius: 30px;
+    border-left: 5px solid #2a9d8f;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tortinchi ol li i {
+    color: #2a9d8f ;
+    font-size: 25px;
+}
+
+.tortinchi ol li h3 {
+    color: #14213d;
+}
+
+.tortinchi ol li p {
+    color: #14213d;
+    font-size: 14px;
+}
